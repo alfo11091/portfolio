@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <title>Portfolio DI RUSSO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="assets/style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- Open Graph -->
+<meta property="og:title" content="Il mio sito web">
+<meta property="og:description" content="Il mio portfolio">
+<meta property="og:url" content="https://alfo11091.github.io/portfolio/">
+<meta property="og:type" content="website">
+<!-- Email JS-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer></script>
+<script src="./assets/script/email.js" defer></script>
+<!-- Hamburger -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+</head>
+<body>
+<nav class="custom-navbar navbar navbar-expand-lg navbar-dark navbar-fixed-top navbarScroll">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#sudime">Su di me</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#servizi">Servizi</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contatti">Contatti</a>
+                  </li>
+              </ul>
+          </div>
+    </div>
+</nav>
+
+ <!-- main banner -->
+ <section class="bgimage" id="home">
+  <div class="container-fluid">
+      <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+          <h2 class="hero_title">Il mio portfolio</h2>
+          <p class="hero_desc">UI/UX Designer</p>
+      </div>
+      </div>
+  </div>
+</section>
+
+<!-- sudime -->
+<section id="sudime">
+  <div class="container">
+      <h2 class="text-center">Su di me</h2>
+      <div class="about-section row">
+          <div class="col-lg-4">
+              <img src="assets/images/about.jpeg" class= "imageAboutPage" >
+          </div>
+
+          <div class="col-lg-8">
+              <p>
+                Ciao, mi chiamo Alfonso Di Russo e sono nato il 01/10/1991 a Pescara.
+            </p>
+
+            <p>
+                Buona parte della mia vita è stata dedicata alla carriera come atleta professionista, ma nel 2017 ho deciso di abbandonare lo sport per dedicarmi al mondo del lavoro. 
+                Attualmente sono il proprietario di due società e sono sempre alla ricerca di nuove opportunità e sfide.
+            </p>
+                Sono appassionato di design, arte, cultura, storia e amo viaggiare. 
+                Ho vissuto anche per diversi anni negli Stati Uniti d'America, che mi hanno arricchito sia personalmente che professionalmente.
+                 </p>
+
+                  <p> 
+                    Adesso, sto diventando uno UX/UI Designer e mi sto specializzando in questo campo per sviluppare le mie competenze e portare valore alle aziende con le quali lavoro e aprire nuove possibilità di carriera.
+                </p>
+
+                <p>
+                    In generale, sono una persona ambiziosa, curiosa, perfezionista e sempre alla ricerca di nuove opportunità per crescere e migliorare. 
+                  </p>
+
+              </div>
+          </div>
+      </div>
+</section>
+
+<!-- servizi -->
+<section id="servizi">
+  <div class="container">
+      <h2 class="text-center">Servizi</h2>
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class="fas servicesIcon fa-clock"></i>
+                      <h3 class="card-title mt-3">Design</h3>
+                      <p class="card-text mt-3">Individuo gli elementi che caratterizzano l'identità visiva di un brand affinché venga ricordato dalle persone.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-layer-group'></i>
+                      <h3 class="card-title mt-3">Copywriting</h3>
+                      <p class="card-text mt-3">Scrivo testi in grado di toccare il cuore delle persone e farle emozionare.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='far servicesIcon fa-search'></i>
+                      <h3 class="card-title mt-3">Discovery</h3>
+                      <p class="card-text mt-3">Eseguo una ricerca sull'utente per comprenderne pensieri, comportamenti, bisogni e motivazioni.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-check-circle'></i>
+                      <h3 class="card-title mt-3">Wireframing</h3>
+                      <p class="card-text mt-3">Definisco la base della struttura di un sito web per rendere unica l'esperienza online.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-shield-alt'></i>
+                      <h3 class="card-title mt-3">User Interface</h3>
+                      <p class="card-text mt-3">Testo i prototipi per identificare i punti di forza e i punti per migliorare l'esperienza online delle persone.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-wrench'></i>
+                      <h3 class="card-title mt-3">User Test</h3>
+                      <p class="card-text mt-3">Testo i progetti e identifico i punti da migliorare per renderlo 10 volte più efficiente.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- portfolio -->
+<section id="portfolio">
+  <div class="container mt-3">
+      <h2 class="text-center">Portfolio</h2>
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card">
+                  <img class="card-img-top" src="assets/images/portfolioImage1.jpg" alt="Card image">
+                  <div class="card-body">
+                      <h3 class="card-title">Orizon - Design</h3>
+                      <p class="card-text">Creazione color palette, immagini per Facebook, YouTube e Instagram per un'agenzia viaggi.</p>
+                      <div class="text-center">
+                          <a href="https://talent.start2impact.it/profile/alfonso-di-russo-4ecf#pills-portfolio" class="btn mt-3" id="cta-styling" type="button"></button>Link</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                  <img class="card-img-top" src="assets/images/portfolioImage2.jpeg" alt="Card image">
+                  <div class="card-body">
+                      <h3 class="card-title">Jojob RT - Discovery 1</h3>
+                      <p class="card-text">Analisi As Is e ricerca utente per un'azienda di Carpooling.</p>
+                      <div class="text-center">
+                          <a href="https://talent.start2impact.it/profile/alfonso-di-russo-4ecf#pills-portfolio" class="btn mt-3" id="cta-styling" type="button"></button>Link</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                  <img class="card-img-top" src="assets/images/portfolioImage3.jpg" alt="Card image">
+                  <div class="card-body">
+                      <h3 class="card-title">Jojob RT - Discovery 2</h3>
+                      <p class="card-text">Sviluppo Personas e User journey di un'azienda di Carpooling.</p>
+                      <div class="text-center">
+                          <a href="https://talent.start2impact.it/profile/alfonso-di-russo-4ecf#pills-portfolio" class="btn mt-3" id="cta-styling" type="button"></button>Link</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                  <img class="card-img-top" src="assets/images/portfolioImage4.jpg" alt="Card image">
+                  <div class="card-body">
+                      <h3 class="card-title">Hotel Pomelia - Copywriting</h3>
+                      <p class="card-text">Scrittura di un blog post in grado di toccare il cuore delle persone per un Hotel che persegue 3 degli Obiettivi di Sviluppo Sostenibile ONU.</p>
+                      <div class="text-center">
+                          <a href="https://talent.start2impact.it/profile/alfonso-di-russo-4ecf#pills-portfolio" class="btn mt-3" id="cta-styling" type="button"></button>Link</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
+                  <img class="card-img-top" src="assets/images/portfolioImage5.jpg" alt="Card image">
+                  <div class="card-body">
+                      <h4 class="card-title">Jojob RT - Wireframe Desktop</h4>
+                      <p class="card-text">Creazione di 5 wireframe desktop per un sito di Carpooling.</p>
+                      <div class="text-center">
+                          <a href="https://talent.start2impact.it/profile/alfonso-di-russo-4ecf#pills-portfolio" class="btn mt-3" id="cta-styling" type="button"></button>Link</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+                <img class="card-img-top" src="assets/images/portfolioImage6.jpg" alt="Card image">
+                <div class="card-body">
+                    <h3 class="card-title">Jojob RT - Wireframe Mobile</h3>
+                    <p class="card-text">Creazione di 5 wireframe mobile per un sito di Carpooling.</p>
+                    <div class="text-center">
+                        <a href="https://talent.start2impact.it/profile/alfonso-di-russo-4ecf#pills-portfolio" class="btn mt-3" id="cta-styling" type="button"></button>Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+                <img class="card-img-top" src="assets/images/portfolioImage7.jpg" alt="Card image">
+                <div class="card-body">
+                    <h3 class="card-title">Jojob RT - UI Desktop</h3>
+                    <p class="card-text">Creazione un prototipo UI desktop per un sito di Carpooling.</p>
+                    <div class="text-center">
+                        <a href="https://talent.start2impact.it/profile/alfonso-di-russo-4ecf#pills-portfolio" class="btn mt-3" id="cta-styling" type="button"></button>Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+                <img class="card-img-top" src="assets/images/portfolioImage8.jpg" alt="Card image">
+                <div class="card-body">
+                    <h3 class="card-title">Jojob RT - UI Mobile</h3>
+                    <p class="card-text">Creazione un prototipo UI mobile per un sito di Carpooling.</p>
+                    <div class="text-center">
+                        <a href="https://talent.start2impact.it/profile/alfonso-di-russo-4ecf#pills-portfolio" class="btn mt-3" id="cta-styling" type="button"></button>Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+</section>
+
+<!-- contatti -->
+<section id="contatti">
+  <div class="container mt-3 contactContent">
+      <h2 class="text-center">Contattami</h2>
+
+      <div class="row mt-4">
+          <div class="col-lg-6">
+              <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+              <div class="map-container">
+                <div id="my-map-display">
+                    <iframe class="map-frame" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Pescara,+PE,+Italia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                </div>
+                <a class="google-map-html" href="https://www.bootstrapskins.com/themes" id="enable-map-data">premium bootstrap themes</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+              <!-- form fields -->
+              <form id="contactForm" method="post" enctype="text/plain">
+                <input type="text" id="name"  class="form-control form-control-lg" placeholder="Nome *" required>
+                <input type="email" id="email" class="form-control mt-3" placeholder="Email *" required>
+                <input type="text" id="subject" class="form-control mt-3" placeholder="Oggetto *" required>
+                <div class="mb-3 mt-3">
+                  <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Dettagli del progetto *" required></textarea>
+                </div>
+                <button type="submit" class="btn mt-3" id="cta-styling">Contattami</button>
+              </form>
+      </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer id="footer">
+  <div class="container-fluid">
+      <!-- social media icons -->
+      <div class="social-icons mt-4">
+          <a href="https://instagram.com/alfo11091?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/alfo11091" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+          <a href="www.linkedin.com/in/alfonso-di-russo-7a792b254" rel="noopener" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+  </div>
+</footer>
+
+</body>
+    <!-- load javascript after loading all html content -->
+    <script src="assets/script/script.js"></script>
+</html>

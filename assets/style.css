@@ -1,0 +1,192 @@
+body {
+  --bs-body-bg: #EEEAFF;
+}
+
+/* background image */
+.bgimage {
+    height:100vh;
+    background: url('images/heroImage.jpeg');
+    background-size:cover;
+    position:relative;
+}
+
+/* testo css hero */
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.about-section.row {
+  align-items: center;
+}
+
+/* servizi css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #606EFE;
+}
+.servicesText:hover {
+    border: 1px solid #606EFE;
+}
+/* social media icone */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #606EFE;
+}
+.fab {
+    color: #000000;
+}
+/* footer */
+#footer {
+    text-align: center;
+}
+/* spazio sezioni */
+#sudime, #servizi, #portfolio, #contatti {
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+#contatti {
+    padding-bottom: 3rem;
+}
+
+/* mappa */
+.map-container {
+  max-width: 100%;
+  overflow: hidden;
+  color: red; 
+  width: 500px;
+  height: 500px;
+}
+
+#my-map-display {
+  height: 100%; 
+  width: 100%;
+  max-width: 100%;
+}
+
+.map-frame {
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
+#my-map-display img {
+    max-height:none;
+    max-width:none!important;
+    background:none!important;
+}
+
+.my-map-display img {
+    max-height:none;
+    max-width:none!important;
+    background:none!important;
+}
+
+/* navbar */
+.navbar-dark.navbar-toggler {
+  border: transparent;
+}
+
+.nav-link {
+    color: #ffffff!important;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+  .custom-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .custom-navbar {
+    background-color: transparent;
+    height: 50px;
+    position: fixed!important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .navbarScroll.navbarDark {
+    background-color: #606EFE;
+}
+  
+  .collapse.navbar-collapse {
+    display: bloc;
+  }
+  
+  .collapse.navbar-collapse.show {
+    display: block;
+    background-color: #606EFE;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+  }
+
+  #cta-styling {
+    background-color: #606EFE; 
+    color: white; 
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  #cta-styling:hover {
+    background-color: #444;
+  }
+  
+  @media (max-width: 991px) {
+    .custom-navbar {
+      height: auto;
+    }
+
+    .navbar-nav {
+      align-items: center;
+    }
+
+    .custom-navbar ul {
+      background-color: #606EFE;
+    }
+  
+    .navbar-nav .nav-item .nav-link {
+      text-align: center;
+      display: block;
+      padding: 10px 0;
+    }
+  }
